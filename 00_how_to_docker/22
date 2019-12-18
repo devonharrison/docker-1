@@ -1,0 +1,10 @@
+#get join-token for worker by:
+docker-machine ssh Char (manager)
+
+#get join token for worker
+docker swarm join-token worker
+
+#then exit Char
+docker-machine ssh Aiur
+
+#use command given from the "docker swarm join-token worker" command
