@@ -11,4 +11,3 @@ ONBUILD WORKDIR rails new app
 ONBUILD WORKDIR /opt/app
 ONBUILD RUN rake db:migrate
 ONBUILD RUN rake db:seed
-# ONBUILD RUN rails server
