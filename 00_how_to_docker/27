@@ -1,1 +1,1 @@
-docker service logs -f 
+docker service logs engineering-bay -f

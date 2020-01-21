@@ -1,5 +1,5 @@
 #get join-token for worker by:
-docker-machine ssh Char (manager)
+docker-machine ssh Char #(manager)
 
 #get join token for worker
 docker swarm join-token worker

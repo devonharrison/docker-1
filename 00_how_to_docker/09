@@ -5,7 +5,6 @@
 #exit immediately
 #run next 5 commands in debian
 apt-get update
-apt-file update
 apt-get install build-essentials
 apt-get install gcc
 apt-get install git
